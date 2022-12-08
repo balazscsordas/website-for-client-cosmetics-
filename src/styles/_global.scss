@@ -1,0 +1,77 @@
+/* Color Palette */
+:root {
+  --color1: #ff4c68;
+  --color2: white;
+  --color3: #F9F7D9;
+  --color4: #FFF6EA;
+}
+
+.btn-main-banner {
+  background: -webkit-linear-gradient(45deg, #e461bd 0%, #cf85be 100%);
+  color: white;
+  font-weight: 500;
+  transition: transform .3s;
+  font-size:1.1rem;
+}
+
+.btn-main-banner:hover {
+  box-shadow: 0px 20px 20px 0px rgb(228 97 189 / 30%);
+  -ms-transform: scale(1.03); /* IE 9 */
+  -webkit-transform: scale(1.03); /* Safari 3-8 */
+  transform: scale(1.03); 
+  color: white;
+}
+
+/* HTML Elements */
+body {
+  font-family: 'Montserrat', sans-serif!important;   // Material UI bekavar, importantnak utánanézni
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bitter', serif;
+  line-height:1.5;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+/**************** Scroll To The Top button ****************/
+.scrollToTheTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+/**************** Idopontfoglalas Button****************/
+.idopontfoglalas-icon {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size:0.9rem;
+  }
+}

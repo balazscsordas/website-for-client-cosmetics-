@@ -1,0 +1,42 @@
+@import './variables';
+
+#call-now-section-1 {
+  background-color: var(--color1);
+  text-align: center;
+  margin: $margin-desktop;
+  box-shadow: 0px 2px 10px;
+
+  .call-now-row-1 {
+    padding: 50px 0;
+  }
+
+  .call-now-text-1 {
+    color: white;
+    margin:20px;
+  }
+
+  .col-lg-6 {
+    margin:auto;
+  }
+
+  .btn {
+    margin:10px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+  #call-now-section-1 {
+    margin: 30px auto;
+
+    .call-now-row-1{
+      padding: 30px 0;
+    }
+
+    .call-now-text-1 {
+      margin:10px;
+    }
+  }
+}

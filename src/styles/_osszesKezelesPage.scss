@@ -1,0 +1,15 @@
+#osszesKezelesPage {
+    .services-intro {
+        display:none;
+    }
+
+    .kezelesek-hatter {
+        background:
+          linear-gradient(to top, transparent 30%, white),
+          url(../images/kezelesek-banner.jpg) no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+}

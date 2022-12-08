@@ -1,0 +1,75 @@
+@import './variables';
+
+.price-list-container-fluid {
+  background-color: var(--color3);
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arlista-hatter {
+  background:
+    linear-gradient(to top, transparent 30%, white),
+    url(../images/arlista-banner.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.price-list-h1 {
+  text-align: center;
+  margin: 15% 0px;
+  padding:3%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container.price-list-container {
+  max-width: 800px;
+  line-height: 2;
+}
+
+.treatment-category {
+  text-align: center;
+  margin: 50px 0 20px 0;
+  background-color: var(--color4);
+  padding: 20px 0px;
+}
+
+.treatment-price {
+  display:inline;
+  float:right;
+  font-weight:bold;
+}
+
+.treatment-name {
+  display:inline;
+  font-weight:bold;
+}
+
+.treatmentBlock {
+  margin-bottom:30px;
+}
+
+.gap-between-treatments {
+  height: 20px;
+}
+
+.treatment-name-row {
+  border-bottom: 1px dashed;
+}
+
+@media screen and (max-width: 600px) {
+  .treatment-category {
+    margin: 10px 0 20px 0;
+    padding: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .price-list-container-fluid {
+    margin-top: $margin-top-banners-mobile;
+  }
+}

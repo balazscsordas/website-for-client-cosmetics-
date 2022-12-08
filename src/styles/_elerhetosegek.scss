@@ -1,0 +1,111 @@
+@import './variables';
+
+#elerhetosegek-section {
+  .container-elerhetosegek-oldal {
+    margin-top: 70px;
+  }
+
+  .elerhetosegek-hatter {
+    background:
+      linear-gradient(to top, transparent 30%, white),
+      url(../images/elerhetosegek-banner.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .cim {
+    text-align: center;
+  }
+
+  .bejelentkezes-leiras {
+    margin-bottom: 50px;
+  }
+
+  .iconBlock {
+    display: table-cell;
+    width: 50px;
+    text-align: center;
+  }
+
+  .icon {
+    margin: 5px;
+    font-size:25px;
+  }
+
+  .elerhetosegBlock {
+    display:table;
+    margin: 30px 0;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .Kozossegi-oldalak {
+    margin: 50px 0;
+    text-align: center;
+  }
+
+  .kozossegi-icon {
+    margin: 10px 20px;
+  }
+
+  .mapouter {
+    text-align: center;
+    max-height: 500px;
+    max-width: 500px;
+    margin: 50px auto auto auto;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    max-height: 500px;
+    max-width: 500px;
+  }
+
+  iframe {
+    width: 500px;
+    height:500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #elerhetosegek-section {
+    .container-elerhetosegek-oldal {
+      margin: $margin-mobile;
+    }
+
+    .cim {
+      margin-bottom: 30px;
+    }
+
+    .elerhetosegBlock {
+      margin: 15px 0;
+
+      h3 {
+        font-size: 1rem;
+      }
+    }
+
+    iframe {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+    }
+
+    .mapouter {
+      margin: 30px auto auto auto;
+    }
+
+    .Kozossegi-oldalak {
+      margin: 40px 0;
+      text-align: center;
+
+      h3 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

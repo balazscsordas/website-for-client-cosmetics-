@@ -1,0 +1,30 @@
+/**************** Footer ****************/
+#footer {
+  margin:50px auto 10px auto;
+
+  .nav-item {
+    line-height: 1.8;
+    padding:7px 10px;
+    text-align: center;
+  }
+
+  .copyright {
+    font-size:0.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #footer {
+    margin:20px auto 10px auto;
+    font-size:0.8rem;
+
+    .linkList .nav-item {
+      padding:0;
+    }
+
+    ul {
+      margin-bottom: 0.5rem!important;
+      padding-bottom:0.5rem!important;
+    }
+  }
+}

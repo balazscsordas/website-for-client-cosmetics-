@@ -1,0 +1,139 @@
+#treatments-page-section {
+  .container {
+    max-width: 1000px;
+  }
+
+  .kezelesekButtonBlock {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .col-lg-4 {
+    padding: 0;
+  }
+  
+  .block {
+    border: 1px solid #FFE6E6;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0px 2px 11px;
+  }
+  
+  .panel-title {
+    text-align: center;
+  }
+  
+  .time-price {
+    margin: 30px auto;
+    width: 50%;
+  }
+  
+  .time-price p {
+    margin: 0;
+    line-height: 2;
+  }
+  
+  .time {
+    background-color: #efe6da;
+    border: 3px solid #efe6da;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+  }
+  
+  .price-single {
+    background-color: #efe6da;
+    border: 3px solid #efe6da;
+    border-radius: 200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .price {
+    border: 3px solid #efe6da;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+  }
+  
+  .treatment-description {
+    padding: 20px 0;
+    line-height: 2;
+  }
+  
+  .treatment-steps {
+    padding-left: 0px;
+    margin-left: 50px;
+  }
+  
+  .treatment-steps li {
+    list-style: square;
+    margin: 10px 0;
+  }
+  
+  .gyantazas-container {
+    background:
+      linear-gradient(to top, transparent 30%, white),
+      url(../images/kezelesek_gyantazas_gep.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .szempilla-container {
+    background:
+      linear-gradient(to top, transparent 30%, white),
+      url(../images/Kezelesek_szempilla_2000.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .klasszikus-kezelesek-container {
+    background:
+      linear-gradient(to top, transparent 30%, white),
+      url(../images/Kezelesek_klasszikus_2000.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .relax-container {
+    background:
+      linear-gradient(to top, transparent 30%, white),
+      url(../images/Kezelesek_relax_2000.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .pedikur-container {
+    background:
+      linear-gradient(to top, transparent 30%, white),
+      url(../images/Kezelesek_pedikur_2000.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .specialis-kezelesek-container {
+    background:
+      linear-gradient(to top, transparent 30%, white),
+      url(../images/Kezelesek_specialis_2000.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  #treatments-page-section .time-price {
+    width:100%;
+  }
+}

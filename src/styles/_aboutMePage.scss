@@ -1,0 +1,46 @@
+@import './variables';
+
+
+.aboutMePageImageCol {
+  text-align: center;
+}
+
+.aboutMeText {
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.aboutMeText h2 {
+  margin-bottom: 30px;
+}
+
+.aboutMeContainer {
+  margin-top: 50px;
+}
+
+.aboutMeImage {
+  width: 50%;
+  border-radius: 10px;
+  border: 1px solid #FFE6E6;
+  padding: 10px;
+  box-shadow: 0px 2px 11px;
+}
+
+.rolam-hatter {
+  background:
+    linear-gradient(to top, transparent 30%, white),
+    url(../images/rolam-banner.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  #aboutMeSection {
+    .aboutMeContainer {
+      margin: $margin-mobile;
+      } 
+    }
+
+  }
